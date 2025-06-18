@@ -1,5 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    scrollbar-width: none;
   }
   body {
     margin: 0;
