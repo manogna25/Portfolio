@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="shortcut icon" href="img/webicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        section{
+            padding: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Primary Navigation">
+        <div class="logo" aria-label="Portfolio Logo">Siva Manogna Lanka</div>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-navigation">
+            <span class="material-icons">menu</span>
+        </button>
+        <div class="nav-links" id="primary-navigation" role="menu">
+            <a href="index.html" role="menuitem" tabindex="0">Home</a>
+        <a href="about.html" role="menuitem" tabindex="0">About</a>
+        <a href="project.html" role="menuitem" tabindex="0">Projects</a>
+        <a href="skills.html" role="menuitem" tabindex="0">Skills</a>
+        <a href="education.html" role="menuitem" tabindex="0">Education</a>
+        <a href="contact.html" role="menuitem" tabindex="0">Contact</a>
+        </div>
+    </nav>
+    <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid">
+
+        <article class="project-card" tabindex="0" aria-labelledby="proj1-title" aria-describedby="proj1-desc">
+            <div class="project-image">
+            <img src="img/aaimg.jpg" alt="Screenshot showing user interface of Project 1 Agri Assist" />
+            </div>
+            <div class="project-content">
+            <h3 id="proj1-title" class="project-title">Agri Assist: Empowering Farming with Community Knowledge</h3>
+            <p id="proj1-desc" class="project-description">
+                A feature-rich E-commerce and Community application with immersing ui developed using postgrel, django.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/SRUJAN-KUMAR-123/AgriAssist" target="_blank" rel="noopener" aria-label="View Awesome Todo App GitHub repository">
+                <span class="material-icons md-18" aria-hidden="true">code</span>Code
+                </a>
+                <a href="#" target="_blank" rel="noopener" aria-label="View Awesome Todo App live demo">
+                <span class="material-icons md-18" aria-hidden="true">launch</span>Live
+                </a>
+            </div>
+            </div>
+        </article>
+
+        <article class="project-card" tabindex="0" aria-labelledby="proj2-title" aria-describedby="proj2-desc">
+            <div class="project-image">
+            <img src="img/hrvimg.jpg" alt="Screenshot showing project 2 Hybrid realness verification" />
+            </div>
+            <div class="project-content">
+            <h3 id="proj2-title" class="project-title">Hybrid Realness Verification System</h3>
+            <p id="proj2-desc" class="project-description">
+                An interactive Verification system. Developed with Flask, and some python libraries.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/manogna25/hybrid_verification_system" target="_blank" rel="noopener" aria-label="View DataViz Dashboard GitHub repository">
+                <span class="material-icons md-18" aria-hidden="true">code</span>Code
+                </a>
+                <a href="#" target="_blank" rel="noopener" aria-label="View DataViz Dashboard live demo">
+                <span class="material-icons md-18" aria-hidden="true">launch</span>Live
+                </a>
+            </div>
+            </div>
+        </article>
+        </div>
+        </section>
+    </header>
+    <footer>
+        <p>&copy; 2025 Siva Manogna Lanka. All rights reserved.</p>
+        <a href="https://github.com/manogna25"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/siva-manogna-lanka-4a52bb288/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </footer>
+</body>
+</html>
